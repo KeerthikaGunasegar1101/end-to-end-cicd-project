@@ -19,8 +19,8 @@ spec:
     spec:
       containers:
       - name: cicd-webapp
-
-        image: keerthikagunasegar/cicd-webapp:v1
+        image: keerthikagunasegar/cicd-webapp:latest
+        imagePullPolicy: Always
 
         ports:
         - containerPort: 80
